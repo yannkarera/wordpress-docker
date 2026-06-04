@@ -29,6 +29,12 @@ services:
       WORDPRESS_DEBUG: 1
     networks:
       - wordpress_network
+  
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "1025:1025" # Port SMTP
+      - "8025:8025" # Interface Web pour voir les mails
 
 volumes:
   db_data:

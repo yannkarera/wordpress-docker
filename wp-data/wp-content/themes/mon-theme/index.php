@@ -16,6 +16,7 @@
             <li><a href="#" data-section="accueil">Accueil</a></li>
             <li><a href="#" data-section="services">Nos services</a></li>
             <li><a href="#" data-section="blog">Blog</a></li>
+            <li><a href="#" data-section="actualités">Actualités</a></li>
             <li><a href="#" data-section="contact">Contact</a></li>
         </ul>
     </nav>
