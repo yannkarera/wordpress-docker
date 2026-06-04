@@ -1,3 +1,8 @@
+## Le projet est un thème WordPress sur mesure développé dans un environnement containerisé avec Docker. L'architecture de navigation est conçue comme une SPA (Single Page Application) : le fichier index.php sert de structure unique, et un script JavaScript (app.js) intercepte les clics pour charger dynamiquement le contenu dans le conteneur principal sans recharger la page.
+
+## Pour la section Actualités, afin de contourner les restrictions des requêtes asynchrones directes (CORS, masquage de la clé API), j'ai créé une route d'API REST personnalisée et sécurisée dans WordPress via le fichier functions.php. C'est le serveur PHP qui interroge l'API externe NewsAPI en injectant les en-têtes requis, puis qui redistribue proprement les données au format JSON vers le Front-End.
+
+
 # 🌐 Mon Portfolio WordPress SPA avec Docker
 
 Ce projet est un thème WordPress personnalisé et développé de zéro. Il intègre une architecture **SPA (Single Page Application)** en JavaScript natif et un système de récupération d'actualités dynamiques via une route d'API REST sécurisée.
