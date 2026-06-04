@@ -35,14 +35,15 @@ docker-compose up -d
 Bash
 
 docker-compose exec -T db mysql -u myuser -pmypassword mydatabase < backup_db.sql
+## 🔑 Accès à l'Application
 
-🔑 Accès à l'Application
-
-## Une fois les conteneurs démarrés, l'application est disponible localement :
+Une fois les conteneurs démarrés et la base de données importée, l'application est disponible localement :
 
     🌐 Site Web (Front-End) : http://localhost:8000
 
     🛠️ Administration WordPress : http://localhost:8000/wp-admin
+
+    📬 Serveur Mail Local (MailHog) : http://localhost:8025 (Pratique pour intercepter les emails de tests envoyés par WordPress !)
 
 ## 🔐 Identifiants de connexion (Admin)
 
