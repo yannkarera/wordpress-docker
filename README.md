@@ -34,7 +34,7 @@ docker-compose up -d
 ## Pour retrouver toute la configuration du site (les menus, les articles et les configurations de pages), importe le dump SQL fourni à la racine :
 Bash
 
-docker-compose exec -T db mysql -u wordpress -pwordpress wordpress < backup_db.sql
+docker-compose exec -T db mysql -u myuser -pmypassword mydatabase < backup_db.sql
 
 🔑 Accès à l'Application
 
