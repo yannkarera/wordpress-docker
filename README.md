@@ -1,1 +1,23 @@
-Pour ce projet, j'ai développé un thème WordPress découplé. L'affichage est géré dynamiquement par un script JavaScript (Vanilla) qui communique avec l'API REST de WordPress. J'ai créé un Custom Post Type 'Service' pour structurer les données et intégré Contact Form 7 via l'API pour gérer les candidatures de manière asynchrone (sans rechargement de page). L'environnement est entièrement conteneurisé avec Docker pour garantir la portabilité du projet.
+# 🌐 Mon Portfolio WordPress SPA avec Docker
+
+Ce projet est un thème WordPress personnalisé et développé de zéro. Il intègre une architecture **SPA (Single Page Application)** en JavaScript natif et un système de récupération d'actualités dynamiques via une route d'API REST sécurisée.
+
+---
+
+## 🚀 Prérequis
+
+Avant de commencer, assure-toi d'avoir installé sur ton ordinateur (idéalement sous Linux/Ubuntu) :
+* **Docker** (v20.10+)
+* **Docker Compose**
+
+---
+
+## 📦 Téléchargement et Installation
+
+### 1. Cloner le dépôt Git
+Ouvre ton terminal et récupère le projet sur ton ordinateur :
+```bash
+git clone [https://github.com/](https://github.com/)[ton-pseudo-github]/[nom-de-ton-depot].git
+cd [nom-de-ton-depot]
+
+
